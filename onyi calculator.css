@@ -1,0 +1,92 @@
+/* Background Gradient */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Calculator Box */
+.calculator {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 10px;
+    color: #ff5e62;
+}
+
+/* Display Screen */
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+/* Buttons */
+button {
+    width: 68px;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #ff7675;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #ff4757;
+}
+
+/* Operator Buttons */
+.operator {
+    background: #2d98da;
+}
+
+.operator:hover {
+    background: #1e7fd1;
+}
+
+/* Equal Button */
+.equal {
+    background: #27ae60;
+}
+
+.equal:hover {
+    background: #219150;
+}
+
+/* Clear Button */
+.clear {
+    background: #d63031;
+}
+
+.clear:hover {
+    background: #c0392b;
+}
